@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="3dp">
+
+                <TextView
+                    android:id="@+id/tvNhom1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ex"
+                    android:text="Nhóm1"
+                    android:textColor="#56646d" />
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+
+                <TextView
+                    android:id="@+id/tvNhom2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ex"
+                    android:text="Nhóm2"
+                    android:textColor="#56646d" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+                <ImageView
+                    android:id="@+id/img33"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+
+                <TextView
+                    android:id="@+id/tvNhom3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ex"
+                    android:text="Nhóm3"
+                    android:textColor="#56646d" />
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/test" />
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="3dp"
+            android:background="@drawable/ex"
+            android:text="Nhóm1"
+            android:textAlignment="center"
+            android:textColor="#56646d"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/viewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_btn"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/btnUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/actionBarItemBackground"
+                android:padding="5dp"
+                android:src="@drawable/baseline_keyboard_double_arrow_down_24" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
